@@ -74,6 +74,31 @@ Example API request:
 - `input_df_path`: Path to the input CSV file.
 - `model_name`: Choose between "bert" (default) or "nmf" for topic modeling.
 
+## Pros and Cons
+### BERT-based Clustering
+
+- Advantages:
+  - Utilizes pre-trained BERT embeddings, which capture semantic meaning in the text.
+  - Effective in handling a wide range of text data, including long and short documents.
+  - Can discover complex and nuanced relationships between documents.
+- Disadvantages:
+  - Requires substantial computational resources, especially for large datasets.
+  - Limited interpretability of clusters due to the black-box nature of deep learning models.
+  - May not perform well on very specific or niche datasets with unique vocabulary.
+
+### NMF-based Clustering
+
+- Advantages:
+  - Provides interpretable topics as the cluster descriptions are based on top keywords.
+  - Computationally less intensive compared to deep learning models.
+  - Performs well on datasets with distinct and well-defined topics.
+- Disadvantages:
+  - Relies on term frequency-inverse document frequency (TF-IDF) vectorization, which may not capture semantic meaning as effectively as word embeddings.
+  - Less suitable for handling very long documents, as the TF-IDF approach can lead to high dimensionality.
+  - The quality of clustering heavily depends on the choice of parameters, such as the number of topics.
+
+BERT-based clustering may be preferred when accuracy and capturing semantic meaning are paramount, while NMF-based clustering may be more suitable when interpretability and simplicity are essential.
+
 ## Improvements
 
 Share any ideas for future improvements or features you plan to add to your project.
