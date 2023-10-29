@@ -1,3 +1,6 @@
+# Misc
+app/sentence_transformer_model
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
