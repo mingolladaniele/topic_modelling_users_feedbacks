@@ -6,7 +6,7 @@ The current project include the implementations for both the BERT and NMF cluste
 - BERT Clustering:
   - Utilizes the SentenceTransformer package to encode text data using the - BERT model.
   - Applies UMAP for dimensionality reduction.
-  - Utilizes HDBSCAN for clustering, considering parameters such as minimum cluster size and metric.
+  - Utilizes HDBSCAN for clustering, considering parameters such as minimum cluster size and metric. It automatically detects noise in the data (-1 as cluster id).
   - Calculates the c-TF-IDF matrix to identify top words per topic.
 - NMF Clustering:
   - Utilizes the TfidfVectorizer for text vectorization.
@@ -107,3 +107,10 @@ Share any ideas for future improvements or features you plan to add to your proj
 3. Optimal Number of Topics: Implement techniques for automatically determining the optimal number of topics, such as coherence scores, topic coherence, or grid search.
 4. Custom Stopwords: Allow users to specify custom stopwords relevant to their domain or dataset to improve the quality of topics.
 5. Advanced Preprocessing: Enhance text preprocessing techniques, including lemmatization, stemming, and handling special characters, to improve topic modeling quality.
+
+## Plot
+Additional plots can be found in the "plots" directory.
+
+In the plots below, all the feedbacks stored in the dataset are represented with reduced dimensionality (2 dimensions only) and colored by topic. Grey points represent noise (-1 as cluster id).
+
+![HDBSCAN](plots/hdbscan_clustering_umap_dims_red.png)
