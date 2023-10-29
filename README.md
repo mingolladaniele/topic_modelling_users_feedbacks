@@ -1,6 +1,18 @@
 # Topic Modelling Users' Feedbacks
 
 This project is designed to apply Natural Language Processing (NLP) techniques to analyze a dataset named "issues.csv." The primary objective is to use clustering algorithms to group similar problems together, making it easier to identify and prioritize issues that need to be addressed.
+The current project include the implementations for both the BERT and NMF clustering methods for the topic modeling process. Specifically:
+
+- BERT Clustering:
+  - Utilizes the SentenceTransformer package to encode text data using the - BERT model.
+  - Applies UMAP for dimensionality reduction.
+  - Utilizes HDBSCAN for clustering, considering parameters such as minimum cluster size and metric.
+  - Calculates the c-TF-IDF matrix to identify top words per topic.
+- NMF Clustering:
+  - Utilizes the TfidfVectorizer for text vectorization.
+  - Applies KMeans for clustering, determining the best number of clusters based on silhouette scores.
+  - Uses Non-Negative Matrix Factorization for identifying keywords for each topic.
+  - These methods demonstrate a comprehensive approach to topic modeling, leveraging both the strengths of deep learning embeddings (BERT) and traditional NLP techniques (NMF).
 
 ## Table of Contents
 
@@ -11,9 +23,7 @@ This project is designed to apply Natural Language Processing (NLP) techniques t
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [Testing](#testing)
 - [Improvements](#improvements)
-- [License](#license)
 
 ## Introduction
 
@@ -62,7 +72,9 @@ Explain how to set up and run your project. Include prerequisites and installati
 
 1. Clone this repository to your local machine.
 2. Build the Docker image and start the service: `docker compose up --build`
-3. Wait until the message `Running on http://127.0.0.1:5000` appear.
+3. Wait until the message `Running on http://127.0.0.1:5000` appears in your terminal.
+4. Send an API request
+5. Execute the command `docker exec -it <name of the running container> bash` into another terminal and navigate to `~/data/output/` to find the results.
 
 ## Usage
 
@@ -72,7 +84,7 @@ Example API request:
 `http://127.0.0.1:5000/topic_modeling?input_df_path=./data/input/issues.csv&model_name=bert`
 
 - `input_df_path`: Path to the input CSV file.
-- `model_name`: Choose between "bert" or "nmf" for topic modeling.
+- `model_name`: Choose between "bert" (default) or "nmf" for topic modeling.
 
 ## Improvements
 
