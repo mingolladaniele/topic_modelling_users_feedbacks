@@ -41,10 +41,15 @@ def topic_modeling():
         # Generate a timestamp
         timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
 
+        # Define the output folder path
+        output_folder = "./data/output"
+
+        # Create the output folder if it doesn't exist
+        if not os.path.exists(output_folder):
+            os.makedirs(output_folder)
+
         # Modify the result filename to include the timestamp
-        result_file = os.path.join(
-            "./data/output/", f"output__{model_name}_{timestamp}.csv"
-        )
+        result_file = os.path.join(output_folder, f"output_{model_name}_{timestamp}.csv")
         clustered_data.to_csv(result_file, index=False)
 
         return jsonify({"result_path": f"Results saved in: {result_file}"})
