@@ -3,45 +3,48 @@ from flask import Flask, request, jsonify
 from modules.preprocessing import preprocess_text
 from modules.clustering import cluster_data_nmf
 import os
-import tempfile
+from datetime import datetime
 
 
 app = Flask(__name__)
 
 
-@app.route("/requests", methods=["POST"])
-def cluster_issues():
+@app.route("/topic_modeling", methods=["POST"])
+def topic_modeling():
     if request.method == "POST":
-        # Check if "input_file" and "model_name" parameters are in the request
-        if "input_file" not in request.args:
-            return jsonify({"error": "'input_file' parameter is required!"}), 400
+        # Check if "input_df_path" and "model_name" parameters are in the request
+        if "input_df_path" not in request.args:
+            return jsonify({"error": "'input_df_path' parameter is required!"}), 400
         if "model_name" not in request.args:
             return jsonify({"error": "'model_name' parameter is required!"}), 400
 
-        input_file = request.args.get("input_file")
+        input_df_path = request.args.get("input_df_path")
         model_name = request.args.get("model_name")
-        # Check if the model_name is valid (e.g., 'kmeans', 'nmf')
-        if model_name not in ["kmeans", "nmf"]:
+        # Check if the model_name is valid (e.g. 'nmf')
+        if model_name not in ["nmf"]:
             return jsonify({"error": "Invalid model_name"}), 400
 
         # Check if the input file name exists
-        if not os.path.exists(input_file):
+        if not os.path.exists(input_df_path):
             return jsonify({"error": "Input file not found"}), 404
 
-        data = preprocess_text(input_file)
+        data = preprocess_text(input_df_path)
 
         # Load the model based on model_name (implement model loading)
         if model_name == "nmf":
             clustered_data = cluster_data_nmf(data)
 
-        # Save the results
-        result_file = os.path.join("./data/output/", "output.csv")
+        # Generate a timestamp
+        timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+
+        # Modify the result filename to include the timestamp
+        result_file = os.path.join("./data/output/", f"output_{timestamp}.csv")
         clustered_data.to_csv(result_file, index=False)
 
         return jsonify({"result_path": f"Results saved in: {result_file}"})
 
     else:
-        return jsonify({"error": "not a post request"}), 404
+        return jsonify({"error": "Not a POST request!"}), 404
 
 
 if __name__ == "__main__":
