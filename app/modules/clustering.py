@@ -120,7 +120,7 @@ def cluster_data_bert(df):
 
     df["group_name"] = ["cluster " + str(cluster_id) for cluster_id in cluster.labels_]
     df["group_description"] = [
-        ",".join([word for word, _ in top_n_words[cluster_id]])[:20] for cluster_id in cluster.labels_
+        ",".join([word for word, _ in top_n_words[cluster_id]]) for cluster_id in cluster.labels_
     ]
     df.drop(columns=["text"], inplace=True)
     return df
@@ -169,9 +169,8 @@ def cluster_data_nmf(df):
     dictionary = Dictionary(corpus)
     corpus = [dictionary.doc2bow(text) for text in corpus]
 
-    # Reapply NMF with the optimal number of topics
+    # Apply NMF with the optimal number of topics
     nmf = NMF(n_components=num_topics, random_state=0)
-    nmf_topic_matrix = nmf.fit_transform(tfidf_matrix)
 
     # Find keywords for each topic
     vectorizer = CountVectorizer(analyzer="word", stop_words="english")
@@ -182,7 +181,7 @@ def cluster_data_nmf(df):
     for i in range(num_topics):
         # Extract top keywords for the group description
         topic_keywords = " ".join(
-            keywords[idx] for idx in np.argsort(nmf_topic_matrix.components_[i])[-10:][::-1]
+            keywords[idx] for idx in np.argsort(nmf.components_[i])[-10:][::-1]
         )
         
         # Use NMF topic index as group name
