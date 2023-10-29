@@ -171,7 +171,8 @@ def cluster_data_nmf(df):
 
     # Apply NMF with the optimal number of topics
     nmf = NMF(n_components=num_topics, random_state=0)
-
+    nmf.fit_transform(tfidf_matrix)
+    
     # Find keywords for each topic
     vectorizer = CountVectorizer(analyzer="word", stop_words="english")
     keywords = vectorizer.fit(df["text"]).get_feature_names_out()
