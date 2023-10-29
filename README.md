@@ -25,17 +25,7 @@ The current project include the implementations for both the BERT and NMF cluste
 - [Usage](#usage)
 - [Improvements](#improvements)
 
-## Introduction
-
-Provide a brief introduction to your project, its purpose, and its main features.
-
-## Problem Statement
-
-Explain the problem your project is solving or the goal it aims to achieve.
-
 ## Project Structure
-
-Describe the structure of your project's repository, including folders, main files, and their purposes.
 
 ```
 project-root/
@@ -60,8 +50,6 @@ project-root/
 ```
 
 ## Getting Started
-
-Explain how to set up and run your project. Include prerequisites and installation instructions.
 
 ### Prerequisites
 
