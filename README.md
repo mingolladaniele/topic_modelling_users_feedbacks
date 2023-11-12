@@ -1,6 +1,6 @@
 # Topic Modelling Users' Feedbacks
 
-This project is designed to apply Natural Language Processing (NLP) techniques to analyze a small dataset named "issues.csv." containing user feedbacks about a streaming service that offers a wide variety of movies and TV shows. The primary objective is to use clustering algorithms to group similar feedbacks together, making it easier to identify and prioritize issues that need to be addressed.
+This project is designed to apply Natural Language Processing (NLP) techniques to analyze a small dataset named "issues.csv" containing user feedbacks about a streaming service that offers a wide variety of movies and TV shows. The primary objective is to use clustering algorithms to group similar feedbacks together, making it easier to identify and prioritize issues that need to be addressed.
 The current project include the implementations for both the BERT and NMF clustering methods for the topic modeling process. Specifically:
 
 - BERT Clustering:
