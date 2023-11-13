@@ -1,6 +1,10 @@
 # Misc
 app/sentence_transformer_model
+<<<<<<< HEAD
 app/data
+=======
+data/*
+>>>>>>> ca7699ffe0414c1fdf2b62b531c890f3db8e6866
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
