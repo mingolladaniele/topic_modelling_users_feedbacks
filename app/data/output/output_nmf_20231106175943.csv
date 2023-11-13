@@ -1,0 +1,171 @@
+id,name,reasson,group_name,group_description
+0,voice command feature,user wants to talk to the ai for recommendations like 'serious spy series',cluster 7,cluster 7 - big authentication click behavior card affordance annoying chatbot clarity auto
+1,expand content choices,user feels limited by the few icons and choices available,cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+2,expand content library,"user found limited recommendations, suggesting an expansion of the content library.",cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+3,smart recommendation engine,"user wants a smart engine for recommendations based on richer content descriptions, similar titles, and timing/mood.",cluster 13,cluster 13 - chat bubble card adventure assistant advice appropriate 2fa apple absence
+4,profile matching feature,user suggests a feature to connect and match profiles with their spouse to find common interests for watching together.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+5,ai chat assistant,user recommends adding an ai chat assistant that learns from user's prompts and history to provide personalized advice.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+6,distinguish chat-prompt bubbles from content labels,"the design of chat-prompt bubbles and content labels for movies/tv shows are very similar, making it confusing for users. consider differentiating their designs.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+7,feature request: share recommendations,user suggests adding the ability to share recommendations with friends.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+8,more options in mood categories,"user suggests adding more options in mood categories, including movies from other platforms like youtube.",cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+9,show movies from non-subscribed apps,user requests an option to display movies from apps they are not subscribed to when options run out.,cluster 1,cluster 1 - bookmark 2fa available accuracy card choice click annoying clarity alternative
+10,user feedback interview,perform topic modeling on the user feedback interview,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+11,letterboxd support,user mentioned letterboxd support in the interview.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+12,add feedback option for recommendations,user wants the ability to provide feedback on recommendations when pressing thumbs down and selecting another one.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+13,text message feature,user misses the text message feature.,cluster 14,cluster 14 - case categorize adventure accuracy clarity app chatbot common chat available
+14,connect with partner and friends,allow users to connect with their partner and friends within the app.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+15,tag recommendations,enable users to tag recommendations for watching later.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+16,to watch list,add a feature to create a 'to watch' list for users.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+17,include ratings from rotten tomatoes and imdb,add external ratings to provide more information about the content,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+18,create a netflix rating system,allow users to rate content within the platform,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+19,recommend and share content with friends,add a feature to recommend and share content with friends,cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+20,add a kids category or mood,include a separate category or mood for kids content,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+21,expand title suggestions,user wants more title suggestions in their desired categories.,cluster 13,cluster 13 - chat bubble card adventure assistant advice appropriate 2fa apple absence
+22,improvement suggestion,"smooth and fast user experience, minimize time, clicks, and work required to reach the end goal",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+23,improve user retention and engagement,"explore additional use cases for the app to increase user retention and engagement, such as integrating imdb-like features or options like 'more from this actor'.",cluster 7,cluster 7 - big authentication click behavior card affordance annoying chatbot clarity auto
+24,home button clarity,user is unsure about the purpose of the home button and suggests improving its functionality or removing it.,cluster 6,cluster 6 - actionable app clip behavior accuracy categorize actively auto available common
+25,mark saved movies as seen,user requests the ability to mark saved movies as seen.,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+26,link imdb or apple tv account,integrate netflix with imdb or apple tv account for live recommendations.,cluster 8,cluster 8 - code advice button clarity assistant categorize bus appropriate availability big
+27,improve matching accuracy,enhance the accuracy of movie and tv show matches in netflix.,cluster 8,cluster 8 - code advice button clarity assistant categorize bus appropriate availability big
+28,improve netflix for less active watchers,"user suggests improving netflix for those who are not actively watching, as they may not be the best target group.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+29,flag watched content,user suggests flagging already watched shows/movies,cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+30,add specials category,user requests a category for specials,cluster 3,cluster 3 - additional alternative apple clarity category authentication advice assistant attempt command
+31,improvement suggestion,add more categories,cluster 3,cluster 3 - additional alternative apple clarity category authentication advice assistant attempt command
+32,safe cards and genre exploration,user suggests providing safe cards initially and allowing exploration of more genres based on usage.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+33,customization options,"user wants more customization options, such as choosing categories and setting minimum ratings.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+34,loading speed,user finds the loading speed to be slow and would like it to be faster.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+35,chat interaction,"user would like to interact with the chat feature, as it is the new standard.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+36,improve content suggestions,suggest more content that the user hasn't seen or chose not to watch.,cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+37,improve recommendation variety,increase the variation of recommendations provided,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+38,customize recommendation algorithm,allow users to easily adapt the algorithm and tweak recommendation settings,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+39,preference update issue,"user unable to change preferences, receiving unwanted recommendations.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+40,multiplayer mode,user suggests adding a multiplayer mode to connect accounts with their spouse.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+41,interactivity with recommendations,user wants the ability to interact with the app when it recommends movies and series,cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+42,request for multiplayer mode,user wants to connect their account with their spouse for a multiplayer experience.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+43,need more information about recommendations,user wants more information about the recommended movies.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+44,mark movies as watched,user wants the ability to mark movies as watched and remove them from the bookmark page.,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+45,like button issue,user is unable to press the like button.,cluster 6,cluster 6 - actionable app clip behavior accuracy categorize actively auto available common
+46,theme changing problems,user had initial problems changing the theme and the theme changing back.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+47,app relevance,"user does not see the point of the app, as they have either seen the content or the match is wrong.",cluster 1,cluster 1 - bookmark 2fa available accuracy card choice click annoying clarity alternative
+48,integration with imdb and apple tv,user would like the ability to link their imdb or apple tv account for live recommendations.,cluster 8,cluster 8 - code advice button clarity assistant categorize bus appropriate availability big
+49,wdyt confusion,user did not initially understand the meaning of wdyt.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+50,sharing recommendations,user wanted to share a movie recommendation with a friend and had to use a screenshot.,cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+51,thumbs down interaction,"user expected a new recommendation after clicking thumbs down, but had to click twice.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+52,description visibility,user found it annoying to open a new window to read the full description of a recommendation.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+53,feedback on dislikes,user wants to provide more information on why they disliked a recommendation.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+54,login issue,copy from message feature not working for invite code,cluster 5,cluster 5 - actor clear availability behavior button choice apple clip account age
+55,invite code editing,difficulty in editing the invite code,cluster 9,cluster 9 - actively category annoying attempt bus age clarity click 2fa actionable
+56,text display,"texts not showing correctly (tv-show, movie)",cluster 14,cluster 14 - case categorize adventure accuracy clarity app chatbot common chat available
+57,chat button,clicking the chat button did nothing,cluster 6,cluster 6 - actionable app clip behavior accuracy categorize actively auto available common
+58,wdyt meaning,user did not understand the meaning of wdyt initially.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+59,responding to wdyt,user was unsure how to respond to the wdyt question.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+60,saving movie history,user forgot to save a movie and lost their history.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+61,sharing movie recommendations,user wanted to share a movie recommendation with a friend but had to use a screenshot.,cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+62,thumbs down interaction,user expected a new movie recommendation after clicking thumbs down but had to click twice.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+63,content recommendation,user stopped watching a recommended show due to its political correctness.,cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+64,include ratings from rotten tomatoes and imdb,user requests integration of rotten tomatoes and imdb ratings in the netflix app.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+65,create your own rating system,user suggests the ability to create and submit their own ratings for content.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+66,recommend and share content with friends,user wants the ability to recommend and share content with friends through the netflix app.,cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+67,add 'kids' as a category or mood,user requests a separate 'kids' category or mood for more age-appropriate content suggestions.,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+68,login issue with finnish or danish phone number,can't log in with finnish or danish phone number,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+69,sms 2fa auto-fetch issue,the app can only fetch the first number of the sms 2fa automatically,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+70,app error message,received 'oops something went wrong' error message,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+71,movie recommendation feedback,"wants option to say 'i've seen this before, recommend something similar'",cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+72,thumbs up button issue,thumbs up button didn't work,cluster 6,cluster 6 - actionable app clip behavior accuracy categorize actively auto available common
+73,smooth and fast user experience,wants a smoother and faster user experience,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+74,login issues,user is having trouble logging in and not receiving sms code for authentication. user is based in denmark.,cluster 5,cluster 5 - actor clear availability behavior button choice apple clip account age
+75,improve recommendation system,user wants a way to inform the system about seen and unseen content to get better recommendations.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+76,mood-based chat improvement,user suggests combining mood and genre in a clearer way.,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+77,sms verification code issue,user could not paste the verification code in the form.,cluster 9,cluster 9 - actively category annoying attempt bus age clarity click 2fa actionable
+78,more flexibility in recommendations,user wants more flexibility in recommendations and the ability to ask for specific categories.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+79,saving recommendations in chat,user suggests the ability to save recommendations directly in the chat.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+80,app integration with tv and streaming services,user would like the app to be integrated with their tv and streaming services.,cluster 8,cluster 8 - code advice button clarity assistant categorize bus appropriate availability big
+81,more titles and suggestions,user wants more titles and suggestions in their desired categories.,cluster 13,cluster 13 - chat bubble card adventure assistant advice appropriate 2fa apple absence
+82,improve show descriptions,user had to visit imdb to understand the show's plot as the netflix description was not informative.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+83,more categories,user would like more categories to choose from.,cluster 3,cluster 3 - additional alternative apple clarity category authentication advice assistant attempt command
+84,expand recommendations,increase the number of titles available in the service.,cluster 13,cluster 13 - chat bubble card adventure assistant advice appropriate 2fa apple absence
+85,richer content descriptions,provide more detailed information about each title.,cluster 13,cluster 13 - chat bubble card adventure assistant advice appropriate 2fa apple absence
+86,title twins,recommend similar titles based on user preferences.,cluster 13,cluster 13 - chat bubble card adventure assistant advice appropriate 2fa apple absence
+87,mood-based recommendations,suggest titles based on user's mood and timing.,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+88,profile matching,connect multiple profiles to find common title preferences.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+89,ai chat assistant,implement an ai assistant that learns from user's prompts and history.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+90,no pictures in the app,user mentioned the absence of pictures in the app.,cluster 1,cluster 1 - bookmark 2fa available accuracy card choice click annoying clarity alternative
+91,sports preferences,"user suggests improving sports recommendations by filtering out sports they don't like, such as f1.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+92,training the algorithm,user is unsure if giving feedback is training the algorithm.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+93,more feedback options,"user suggests more feedback options, such as liked or didn't like.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+94,preference settings issue,"user unable to change preferences, receiving unwanted adventure recommendations.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+95,poor recommendations,user did not find any good recommendations and had to rely on external sources.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+96,issue with sms-code input,user got stuck after receiving the sms-code and couldn't write the code in.,cluster 9,cluster 9 - actively category annoying attempt bus age clarity click 2fa actionable
+97,report bugs,user wants to know how to report bugs and duplicates in movie recommendations.,cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+98,remove movie from recommendations,user wants the ability to remove a specific movie/series from their recommendations.,cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+99,ai learning user behavior,user wants the ai to learn more about their behavior and suggest content based on that.,cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+100,delete movies from saved tab,user wants the ability to delete movies from the saved tab.,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+101,recommendation explanation text,user suggests changing the font and reducing the repetitive text in recommendation explanations.,cluster 14,cluster 14 - case categorize adventure accuracy clarity app chatbot common chat available
+102,user retention and engagement,user suggests adding features like 'more from this actor' to improve user retention and engagement.,cluster 7,cluster 7 - big authentication click behavior card affordance annoying chatbot clarity auto
+103,chatbot response icons,"user suggests adding explanations for the thumbs up, thumbs down, and eyes icons in the chatbot response field.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+104,feedback loop for watched movies,user suggests adding pre-set responses for users to choose when they don't want to write a full evaluation.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+105,flag watched shows/movies,add the ability to flag already watched shows and movies.,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+106,category for specials,include a category for special episodes or events.,cluster 3,cluster 3 - additional alternative apple clarity category authentication advice assistant attempt command
+107,repetitive recommendations,user gets the same 3 recommendations repeatedly.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+108,mismatched content,user gets movies when asking for tv-shows.,cluster 8,cluster 8 - code advice button clarity assistant categorize bus appropriate availability big
+109,description sentiment,user was put off by the description sentiment of a movie.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+110,additional mood categories,user suggests adding 'hungover' and 'wind down after work' mood categories.,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+111,mismatched mood,user asked for 'tense' and got a non-tense recommendation.,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+112,long recommendation process,user had to ask for another one 56 times before getting a good recommendation.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+113,error message in mood categories,user encountered an error message in all mood categories.,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+114,history tab and mood filtering,user suggests implementing a history tab and improving mood filtering.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+115,increased variation,user wants more variation in recommendations.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+116,algorithm customization,user wants to easily adapt the algorithm for recommendations.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+117,platform availability,user found a movie on a platform they don't subscribe to.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+118,tv shows vs movies,user is getting more tv shows than movies they haven't seen.,cluster 8,cluster 8 - code advice button clarity assistant categorize bus appropriate availability big
+119,login issue,"login is not working with the provided code, user gets stuck and cannot move forward.",cluster 5,cluster 5 - actor clear availability behavior button choice apple clip account age
+120,duplicate mood categories,duplicate mood categories are present in the app.,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+121,repeated recommendations,the same recommendations are shown multiple times.,cluster 11,cluster 11 - american actively big bookmark account additional common ai appropriate apple
+122,duplicate recommendations in same session,duplicate recommendations appear quickly within the same session.,cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+123,persistent recommendations,"movies like pinocchio, street tunes, everything everywhere, and dredd are suggested repeatedly.",cluster 7,cluster 7 - big authentication click behavior card affordance annoying chatbot clarity auto
+124,family friendly category issue,pinocchio and good night oppy appear multiple times in a row in the family friendly category.,cluster 3,cluster 3 - additional alternative apple clarity category authentication advice assistant attempt command
+125,switching between tv show and movie,unable to switch back to tv show from movie without restarting the app.,cluster 8,cluster 8 - code advice button clarity assistant categorize bus appropriate availability big
+126,filter by genre,"allow users to filter movie suggestions by genre, such as thriller.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+127,customization options,"add options to choose a category, set minimum rating, and other preferences.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+128,loading speed,improve loading speed for a better user experience.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+129,interactive chat,integrate an interactive chat feature for better user engagement.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+130,more movie suggestions,provide more movie suggestions for users to choose from.,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+131,okko link,"i got an okko link, what's that?",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+132,video clips flow,it would be nice to have a flow of video clips; some people may just want to watch them without starting a movie.,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+133,app usage while waiting,"mostly to hang out in the app while waiting for the bus, for example.",cluster 1,cluster 1 - bookmark 2fa available accuracy card choice click annoying clarity alternative
+134,tiktok-like feature,"like a tiktok, for those who don't feel like reading.",cluster 7,cluster 7 - big authentication click behavior card affordance annoying chatbot clarity auto
+135,more content,more content that can be helpful in inspiring people on what to watch.,cluster 4,cluster 4 - account alternative button behavior 2fa clear actively command age affordance
+136,login issue,"couldn't log in, american flag missing so couldn't add phone number.",cluster 5,cluster 5 - actor clear availability behavior button choice apple clip account age
+137,app stickiness,"app not as sticky in user's life as desired, possibly due to user's limited tv consumption.",cluster 1,cluster 1 - bookmark 2fa available accuracy card choice click annoying clarity alternative
+138,design affordance,"chat prompt defaults look similar to content tags, causing confusion in user interaction.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+139,confusing start,"user found it confusing to start using the app, especially with the chat feature.",cluster 1,cluster 1 - bookmark 2fa available accuracy card choice click annoying clarity alternative
+140,menu simplification,"suggestion to join profile, bookmark, or home menus to make navigation easier.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+141,ui issues on ipad,"text size is bigger than buttons or tags, making it hard to read on ipad.",cluster 6,cluster 6 - actionable app clip behavior accuracy categorize actively auto available common
+142,inconsistent logo,"the mark logo is different in different sections, causing confusion.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+143,missing film year,films do not display the release year.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+144,multiple attempts for recommendations,user needed 2-3 attempts to find a movie they liked due to generic recommendations.,cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+145,image sizing issue,film images do not fit properly in the designated image box.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+146,chat options clarity,"when chat offers too many options, it becomes hard to read.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+147,confusing emoji,"the eyes emoji is confusing, and user had to click to understand it meant 'i watched'.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+148,login issues,user is having trouble logging in and not receiving sms with the code.,cluster 5,cluster 5 - actor clear availability behavior button choice apple clip account age
+149,sms delivery problem,user based in denmark is not receiving a response sms with the code.,cluster 5,cluster 5 - actor clear availability behavior button choice apple clip account age
+150,suggestion for improvement,user suggests providing safe cards initially and allowing exploration of more genres later.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+151,inaccurate recommendations,received 3 war movies in a row when picking 'for the couples',cluster 2,cluster 2 - active authentication adventure behavior 2fa affordance code auto clear advice
+152,navigation issues,couldn't go back to the previous mood,cluster 10,cluster 10 - command appropriate ability bubble clip box bookmark ai category advice
+153,adjust interests/genres,add a way to adjust interests/genres inside the app,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+154,home button confusion,user doesn't understand the purpose of the home button,cluster 6,cluster 6 - actionable app clip behavior accuracy categorize actively auto available common
+155,mark movies as seen,add the ability to mark movies as seen and clear bookmarks,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+156,unavailable movie,user tried to watch a movie that was no longer available,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+157,hbo max issues,user can't find suggested movies on hbo max,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+158,incorrect poster,user received a weird picture as a movie poster,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+159,technical issues,were there any technical issues or bugs?,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+160,netflixs repetition,netflixs keep appearing in the app even after being seen.,cluster 1,cluster 1 - bookmark 2fa available accuracy card choice click annoying clarity alternative
+161,bookmark disappearing,"bookmark disappears after adding a movie, should stay and be filled in.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+162,like button issue,like button not working properly.,cluster 6,cluster 6 - actionable app clip behavior accuracy categorize actively auto available common
+163,play icon expectation,"expected a trailer when clicking play icon, not opening hbo/netflix.",cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+164,categorize saved items,allow saved items to be categorized with actionable titles.,cluster 13,cluster 13 - chat bubble card adventure assistant advice appropriate 2fa apple absence
+165,navigation indicator,add visual indication of the active tab in the bottom navigation.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+166,alternative platform options,show options to rent a movie from another platform if available.,cluster 0,cluster 0 - chatbot 2fa alternative affordance absence assistant bus clip attempt clarity
+167,home screen text,shorter and snappier text on the home screen.,cluster 14,cluster 14 - case categorize adventure accuracy clarity app chatbot common chat available
+168,mark as viewed,add a function to mark movies and shows as viewed.,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
+169,post-watch feedback,allow users to give feedback on a movie after watching it.,cluster 12,cluster 12 - auto age actionable appropriate card chatbot bookmark active ability big
